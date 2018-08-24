@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+    android:id="@+id/signin"
+        android:icon="@drawable/ic_menu_send"
+    android:title="@string/sign_in"
+   />
+    <item
+        android:id="@+id/signup"
+        android:icon="@drawable/ic_menu_share"
+        android:title="@string/sign_up"
+       />
+    <item
+        android:id="@+id/logout"
+
+        android:title="@string/log_out"
+         />
+    <item
+        android:id="@+id/accountsetting"
+
+        android:title="@string/setting_account"
+         />
+    <item
+        android:id="@+id/allusers"
+
+        android:title="Tất cả người dùng"
+        />
+
+</menu>

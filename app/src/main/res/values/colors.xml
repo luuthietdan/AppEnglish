@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e75ee3</color>
+    <color name="colorPrimaryDark">#94a0de</color>
+    <color name="colorAccent">#FFEB3B</color>
+
+    <color name="colorBackground">#a4b6c9</color>
+    <color name="colorButton">#4457c2</color>
+    <color name="colorButtonSelected">#e75b88</color>
+    <color name="colorGrid">#9abdc7</color>
+    <color name="white">#fcfeff</color>
+    <color name="register">#fcfdfd</color>
+    <color name="buttonimage">#35ce21</color>
+    <color name="statusblack">#0b0b0b</color>
+    <color name="backgroundprofile">#e4e4e4</color>
+    <color name="backgroundmessages">#0572bf</color>
+</resources>

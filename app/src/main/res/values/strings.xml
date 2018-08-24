@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">English</string>
+    <string name="question_1_x">Câu hỏi: 1/x</string>
+    <string name="Score">Điểm: 0</string>
+    <string name="Time">00:30</string>
+    <string name="title_activity_main_english">MainEnglish</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="email">Email</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="action_sign_in_short">Đăng ký</string>
+    <string name="name">Họ Tên</string>
+    <string name="btn_login">Đăng nhập</string>
+    <string name="btn_link_to_register">Bạn chưa có tài khoản?</string>
+    <string name="password_minium">Trên 6 ký tự </string>
+    <string name="auth_failed">Đăng nhập thất bại</string>
+    <string name="setting_account">Cài đặt tài khoản</string>
+    <string name="log_out">Đăng Xuất</string>
+    <string name="sign_up">Đăng Ký</string>
+    <string name="sign_in">Đăng Nhập</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="learning">Học</string>
+    <string name="yeu_cau">Yêu Cầu Kết Bạn</string>
+    <string name="tro_chuyen">Trò Chuyện</string>
+    <string name="ban_be">Bạn Bè</string>
+    <string name="save_changes">Lưu thay đổi</string>
+    <string name="display_name">Display Name</string>
+    <string name="status">Status</string>
+    <string name="change_image">Thay đổi hình ảnh</string>
+    <string name="change_status">Thay đổi tâm trạng</string>
+    <string name="current_user_status">Current User Status</string>
+    <string name="total_friends">Total Friends</string>
+    <string name="last_seen">Last Seen</string>
+</resources>

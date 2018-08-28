@@ -3,12 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
     android:id="@+id/signin"
-        android:icon="@drawable/ic_menu_send"
+
     android:title="@string/sign_in"
    />
     <item
         android:id="@+id/signup"
-        android:icon="@drawable/ic_menu_share"
+
         android:title="@string/sign_up"
        />
     <item
@@ -25,6 +25,11 @@
         android:id="@+id/allusers"
 
         android:title="Tất cả người dùng"
+        />
+    <item
+        android:id="@+id/exam"
+
+        android:title="Kiểm tra"
         />
 
 </menu>

@@ -103,5 +103,6 @@
         android:layout_marginTop="16dp"
         android:text="Kiểm tra"
         android:textSize="@dimen/Sizescore"
+        android:textColor="@color/white"
         android:freezesText="true"/>
 </RelativeLayout>

@@ -45,22 +45,22 @@ public class QuizDbHelper extends SQLiteOpenHelper {
     }
 
     private void fillQuestionsTable() {
-        Question q1 = new Question(" A is correct", "A", "B", "C", 1);
+        Question q1 = new Question("My mother___(buy) some  food at the grocery store", "is buying", "was bought", "is buy", 1);
         addQuestion(q1);
-        Question q2 = new Question(": B is correct",
-                "A", "B", "C", 2);
+        Question q2 = new Question("Luke___(not study) Japanese in the library. He's at home with his friends.",
+                "isn't study", "isn't studying", "was studied", 2);
         addQuestion(q2);
-        Question q3 = new Question(" C is correct",
-                "A", "B", "C", 3);
+        Question q3 = new Question("___(She,run) down the street?",
+                "She is running", "did she run", "Is she running", 3);
         addQuestion(q3);
-        Question q4 = new Question(" A is correct",
-                "A", "B", "C", 1);
+        Question q4 = new Question("My cat___(eat) now.",
+                "eatting", "ate", "eats", 1);
         addQuestion(q4);
-        Question q5 = new Question("Hard: B is correct",
-                "A", "B", "C", 2);
+        Question q5 = new Question("What___(you,wait) for?",
+                "are you wait", "are you waiting", "did you wait", 2);
         addQuestion(q5);
-        Question q6 = new Question("Hard: C is correct",
-                "A", "B", "C", 3);
+        Question q6 = new Question("Listen! Our teacher___(speak).",
+                "speaks", "spoke", "is speaking", 3);
         addQuestion(q6);
 //        Question q1 = new Question("Easy: A is correct",
 //                "A", "B", "C", 1, Question.DIFFICULTY_EASY);

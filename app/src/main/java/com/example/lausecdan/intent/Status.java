@@ -22,6 +22,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class Status extends AppCompatActivity {
     private Toolbar mToolbar;
+
     private EditText mTextInput;
     private Button mSaveStatus;
     private DatabaseReference mDbReference;

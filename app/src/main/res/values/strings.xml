@@ -37,4 +37,6 @@
     <string name="current_user_status">Current User Status</string>
     <string name="total_friends">Total Friends</string>
     <string name="last_seen">Last Seen</string>
+    <string name="open">Mở</string>
+    <string name="close">Đóng</string>
 </resources>

@@ -30,7 +30,7 @@ public class StartScreen extends AppCompatActivity {
         mbtnStart=findViewById(R.id.button_start_quiz);
 
         textViewHighscore = findViewById(R.id.text_view_highscore);
-        spinnerDifficulty = findViewById(R.id.spinner_difficulty);
+
 
 //        String[] difficultyLevels = Question.getAllDifficultyLevels();
 //

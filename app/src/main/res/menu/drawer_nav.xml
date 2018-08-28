@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/requests"
+            android:icon="@drawable/friendrequest"
+            android:title="@string/yeu_cau"
+            />
+        <item
+            android:id="@+id/chats"
+            android:icon="@drawable/chat"
+            android:title="@string/tro_chuyen"
+            />
+        <item
+            android:id="@+id/friends"
+            android:icon="@drawable/friends"
+            android:title="@string/ban_be"
+            />
+    </group>
+
+</menu>

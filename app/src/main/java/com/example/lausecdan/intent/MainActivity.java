@@ -3,8 +3,12 @@ package com.example.lausecdan.intent;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
+import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -14,8 +18,10 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.FrameLayout;
+import android.widget.GridView;
 import android.widget.Toast;
 
+import com.example.lausecdan.intent.Adapter.GridAdapter;
 import com.google.firebase.auth.FirebaseAuth;
 
 
@@ -24,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
     private BottomNavigationView mbottomNav;
     private FrameLayout mframe;
     private  Toolbar mToolbar;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,17 +42,19 @@ public class MainActivity extends AppCompatActivity {
         mframe=findViewById(R.id.frame_layout);
         mToolbar=findViewById(R.id.my_toolbar);
         setSupportActionBar(mToolbar);
+
+
+
+
 //        getSupportActionBar().setTitle("English");
 //        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
+//        gridView=findViewById(R.id.gvSubject);
+//        gridView.setAdapter(new GridAdapter(this,subjectList,subjectImage));
         mbottomNav.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 switch (menuItem.getItemId()){
-                    case R.id.learning:
-                        HomeFragment homeFragment=new HomeFragment();
-                        setFragment(homeFragment);
-                        return true;
+
                     case R.id.requests:
                         RequestsFragment requestsFragment=new RequestsFragment();
                         setFragment(requestsFragment);
@@ -100,8 +110,15 @@ public class MainActivity extends AppCompatActivity {
             Intent intent= new Intent(MainActivity.this,UsersActivity.class);
             startActivity(intent);
         }
+        if(id==R.id.exam){
+            Intent intent= new Intent(MainActivity.this,StartScreen.class);
+            startActivity(intent);
+        }
         return super.onOptionsItemSelected(item);
     }
+
+
+
 
 
 }
